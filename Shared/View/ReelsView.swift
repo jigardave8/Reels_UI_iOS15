@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct ReelsView: View {
+
+    @State var currentReel = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+
+       // Vertical Page Tab View
+
+        TabView(selection: $currentReel){
+
+            ForEach(MediaFileJSON){ media in
+
+                Color.red
+                    .padding()
+
+            }
+
+
+
+        }
     }
 }
 
 struct ReelsView_Previews: PreviewProvider {
     static var previews: some View {
-        ReelsView()
+        ContentView()
     }
 }
