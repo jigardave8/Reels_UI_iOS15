@@ -23,6 +23,7 @@
 		B709EB6F27116693001EC2DC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709EB6E27116693001EC2DC /* Home.swift */; };
 		B709EB71271167AC001EC2DC /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709EB70271167AC001EC2DC /* ReelsView.swift */; };
 		B74F5DD227142A160024F268 /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F5DD127142A160024F268 /* Reel.swift */; };
+		B7BA06A72717F0FD0003255A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BA06A62717F0FD0003255A /* AVKit.framework */; };
 		B7C9ABC327155F40005BD96C /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9ABC227155F40005BD96C /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		B709EB6E27116693001EC2DC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		B709EB70271167AC001EC2DC /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
 		B74F5DD127142A160024F268 /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		B7BA06A62717F0FD0003255A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7BA06A82717F1060003255A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		B7C9ABC227155F40005BD96C /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BA06A72717F0FD0003255A /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +80,7 @@
 				B709EB3027115F4D001EC2DC /* Shared */,
 				B709EB3F27115F4F001EC2DC /* macOS */,
 				B709EB3927115F4F001EC2DC /* Products */,
+				B7BA06A52717F0FD0003255A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +130,15 @@
 				B74F5DD127142A160024F268 /* Reel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B7BA06A52717F0FD0003255A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA06A82717F1060003255A /* AVFoundation.framework */,
+				B7BA06A62717F0FD0003255A /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -358,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;

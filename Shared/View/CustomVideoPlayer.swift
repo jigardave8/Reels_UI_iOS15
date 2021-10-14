@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import AVFoundation
 import AVKit
 // custom video player from UIkit
 
