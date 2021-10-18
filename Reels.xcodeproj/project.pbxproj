@@ -23,6 +23,8 @@
 		B709EB6F27116693001EC2DC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709EB6E27116693001EC2DC /* Home.swift */; };
 		B709EB71271167AC001EC2DC /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709EB70271167AC001EC2DC /* ReelsView.swift */; };
 		B74F5DD227142A160024F268 /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F5DD127142A160024F268 /* Reel.swift */; };
+		B79BE63D271813B40093C705 /* Liked.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BE63C271813B40093C705 /* Liked.swift */; };
+		B79BE63E271813B40093C705 /* Liked.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BE63C271813B40093C705 /* Liked.swift */; };
 		B7BA06A72717F0FD0003255A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BA06A62717F0FD0003255A /* AVKit.framework */; };
 		B7C9ABC327155F40005BD96C /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9ABC227155F40005BD96C /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,7 @@
 		B709EB6E27116693001EC2DC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		B709EB70271167AC001EC2DC /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
 		B74F5DD127142A160024F268 /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		B79BE63C271813B40093C705 /* Liked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liked.swift; sourceTree = "<group>"; };
 		B7BA06A62717F0FD0003255A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7BA06A82717F1060003255A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		B7C9ABC227155F40005BD96C /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				B709EB6927116223001EC2DC /* View */,
 				B709EB3127115F4D001EC2DC /* ReelsApp.swift */,
 				B709EB3227115F4D001EC2DC /* ContentView.swift */,
+				B79BE63C271813B40093C705 /* Liked.swift */,
 				B709EB3327115F4F001EC2DC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -252,6 +256,7 @@
 				B709EB4127115F4F001EC2DC /* ReelsApp.swift in Sources */,
 				B709EB6F27116693001EC2DC /* Home.swift in Sources */,
 				B709EB6D2711626C001EC2DC /* MediaFile.swift in Sources */,
+				B79BE63D271813B40093C705 /* Liked.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 			files = (
 				B709EB4427115F4F001EC2DC /* ContentView.swift in Sources */,
 				B709EB4227115F4F001EC2DC /* ReelsApp.swift in Sources */,
+				B79BE63E271813B40093C705 /* Liked.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
